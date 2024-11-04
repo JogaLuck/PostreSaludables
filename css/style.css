@@ -435,7 +435,7 @@ html, body{ height: 100%; }
 
 .book-btn a{
 	/*background:#e75b1e;*/
-	color:#fff;
+	color:#BFA184;
 	min-width: 219px;
     padding: 10.5px 20px;
     display: inline-block;
@@ -900,8 +900,8 @@ html, body{ height: 100%; }
 }
 
 .tab-menu .is-active h2{
-	color:#fff;
-	border-bottom: 1px solid #fff;
+	color:#BFA184;
+	border-bottom: 1px solid #BFA184;
 }
 .tab-menu .is-active p{
 	color:#fff;
@@ -982,7 +982,7 @@ html, body{ height: 100%; }
 }
 
 .sf-team:hover .team-social {
-    border-color: #fff;
+    border-color: #BFA184;
 	transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
@@ -1028,7 +1028,7 @@ html, body{ height: 100%; }
 }
 
 .sf-team:hover .text-col h3, .sf-team:hover .text-col p {
-    color: #fff;
+    color: #BFA184;
 	transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
@@ -1277,7 +1277,7 @@ html, body{ height: 100%; }
 }
 
 .blog-btn-v a {
-    color: #fff;
+    color: #BFA184;
     min-width: 219px;
     padding: 10.5px 20px;
     display: inline-block;
@@ -1334,7 +1334,7 @@ html, body{ height: 100%; }
 	padding:15px 0px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color:#ffffff;
+	color:#BFA184;
 }
 
 .panel-pricing .panel-heading .fa {
@@ -1389,7 +1389,7 @@ html, body{ height: 100%; }
 .pricing-main .panel-footer a{
 	background: #e75b1e;
 	border: 3px solid #e75b1e;
-	color:#fff;
+	color:#BFA184;
 	padding: 14px 16px;
 }
 .pricing-main .panel-footer a:hover{
@@ -1528,7 +1528,7 @@ html, body{ height: 100%; }
 }
 
 .reserve-book-btn button  {
-    color: #fff;
+    color: #BFA184;
     min-width: 219px;
     padding: 10.5px 20px;
     display: inline-block;
@@ -1794,7 +1794,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .copyright-main .copy-title{
 	letter-spacing: 1px;
-	color:#fff;
+	color:#BFA184;
 	font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	padding-bottom:0px;

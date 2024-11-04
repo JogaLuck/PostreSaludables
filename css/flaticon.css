@@ -27,6 +27,7 @@
     font-size: 50px;
 	font-style: normal;
 	margin-left: 0px;
+  color: #000000;
 }
 
 .flaticon-canape:before { content: "\f100"; }
