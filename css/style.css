@@ -1822,6 +1822,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	box-shadow: 0px 1px 4px rgba(0,0,0, 0.45);
+    border-radius: 30px;
 }
 
 .close-color-panel{
@@ -1838,6 +1839,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 	border:1px solid rgba(100,100,100,0.55);
 	padding:15px 25px;
 	background:rgba(50,50,50,0.95);
+    border-radius: 30px;
 }
 
 #color-panel a.panel-button{
@@ -1884,10 +1886,11 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 	margin-top:5px;
 	border:1px solid #efefef;
 	cursor: pointer;
+    border-radius: 30px;
 }
 
 .orange-bg{
-	background: #e75b1e;
+	background: #BFA184;
 }
 
 .strong-blue-bg{
@@ -1901,3 +1904,52 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 .vivid-yellow-bg{
 	background: #fdcb03;
 }
+
+/*whatsapp icono*/
+/* Ícono de WhatsApp */
+
+  /* Tooltip */
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #25D366;
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 60px; /* Ajuste para la posición encima del ícono */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Muestra el tooltip cuando se pasa el cursor sobre el ícono */
+  .whatsapp-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Ícono de WhatsApp como imagen fija */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    text-decoration: none;
+  }
+  
+  .whatsapp-image {
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+     /* Sombra alrededor del botón */
+    border-radius: 8px; /* Bordes redondeados para un mejor acabado */
+    transition: transform 0.3s ease; /* Efecto de escala al pasar el cursor */
+  }
+  
+  .whatsapp-icon:hover .whatsapp-image {
+    transform: scale(1.05); /* Efecto de agrandado al pasar el cursor */
+
+  }
+  

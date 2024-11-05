@@ -15,7 +15,8 @@
 }
 .book-btn a{
 	background: #FEEDE3;
-	border: 3px solid #FEEDE3;
+	border: 3px solid #BFA184;
+	border-radius: 30px;
 }
 .book-btn a:hover{
 	border: 3px solid #FEEDE3;
