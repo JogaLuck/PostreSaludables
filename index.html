@@ -3,6 +3,15 @@
 
 <head>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYF4QFQH6Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GYF4QFQH6Q');
+    </script>
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -265,7 +274,8 @@
                                 <h2 class="block-title text-center">
                                     Productos
                                 </h2>
-                                <p class="title-caption text-center color-white">There are many variations of passages of Lorem
+                                <p class="title-caption text-center color-white">There are many variations of passages
+                                    of Lorem
                                     Ipsum available, but the majority have suffered alteration in some form, by injected
                                     humour, or randomised words which don't look even slightly believable. </p>
                             </div>
@@ -492,8 +502,8 @@
     <!-- PRODUCTOS END -->
 
 
-        <!-- NUESTRO EQUIPO START -->
-        <!-- <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
+    <!-- NUESTRO EQUIPO START -->
+    <!-- <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -560,10 +570,10 @@
             </div>
         </div>
     </div> -->
-        <!-- NUESTRO EQUIPO END -->
+    <!-- NUESTRO EQUIPO END -->
 
-        <!-- GALERIA START -->
-        <!-- <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+    <!-- GALERIA START -->
+    <!-- <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -777,10 +787,10 @@
             </div>
         </div>
     </div> -->
-        <!-- GALERIA END -->
+    <!-- GALERIA END -->
 
 
-        <!-- <div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
+    <!-- <div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -866,220 +876,219 @@
         </div>
     </div> -->
 
-        <!-- FORMULARIO START-->
-        <div id="reservation" class="encima reservations-main pad-top-100 pad-bottom-100">
+    <!-- FORMULARIO START-->
+    <div id="reservation" class="encima reservations-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="form-reservations-box">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="block-title text-center">¡No te pierdas de las ofertas y novedades!</h2>
+                        </div>
+                        <h4 class="form-title">Exclusivo solo para nuestros clientes</h4>
+                        <p> Dejános tu info y te estarémos contactando a los más pronto nos sea posible</p>
+
+                        <form id="contact-form" method="post" class="reservations-box" name="contactform"
+                            action="mail.php">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="text" name="form_name" id="form_name" placeholder="Nombres"
+                                        required="required" data-error="Nombre is required.">
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="text" name="form_name" id="apellidos" placeholder="Apellidos"
+                                        required="required" data-error="Los apellidos is required.">
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="email" name="email" id="email" placeholder="Correo Electrónico"
+                                        required="required" data-error="E-mail id is required.">
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="text" name="phone" id="phone" placeholder="Número de contacto">
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="reserve-book-btn text-center">
+                                    <button class="hvr-underline-from-center" type="submit" value="SEND"
+                                        id="submit">Enviar</button>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </form>
+                        <!-- end form -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end reservations-box -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- FORMULARIO END-->
+
+    <!-- FOOTER START -->
+    <div id="footer" class="footer-main">
+        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
             <div class="container">
                 <div class="row">
-                    <div class="form-reservations-box">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                                <h2 class="block-title text-center">¡No te pierdas de las ofertas y novedades!</h2>
-                            </div>
-                            <h4 class="form-title">Exclusivo solo para nuestros clientes</h4>
-                            <p> Dejános tu info y te estarémos contactando a los más pronto nos sea posible</p>
-
-                            <form id="contact-form" method="post" class="reservations-box" name="contactform"
-                                action="mail.php">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="text" name="form_name" id="form_name" placeholder="Nombres"
-                                            required="required" data-error="Nombre is required.">
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="text" name="form_name" id="apellidos" placeholder="Apellidos"
-                                            required="required" data-error="Los apellidos is required.">
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="email" name="email" id="email" placeholder="Correo Electrónico"
-                                            required="required" data-error="E-mail id is required.">
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="text" name="phone" id="phone" placeholder="Número de contacto">
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="reserve-book-btn text-center">
-                                        <button class="hvr-underline-from-center" type="submit" value="SEND"
-                                            id="submit">Enviar</button>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                            </form>
-                            <!-- end form -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="ft-title color-white text-center"> Trabaja para nosotros </h2>
+                            <p> ¿Estás buscando trabajo? Envianos tu correo y te escribiremos</p>
                         </div>
-                        <!-- end col -->
+                        <form>
+                            <input type="email" placeholder="Ingresa tu correo">
+                            <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                        </form>
                     </div>
-                    <!-- end reservations-box -->
+                    <!-- end col -->
                 </div>
                 <!-- end row -->
             </div>
             <!-- end container -->
         </div>
-        <!-- FORMULARIO END-->
-
-        <!-- FOOTER START -->
-        <div id="footer" class="footer-main">
-            <div class="footer-news pad-top-100 pad-bottom-70 parallax">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                                <h2 class="ft-title color-white text-center"> Trabaja para nosotros </h2>
-                                <p> ¿Estás buscando trabajo? Envianos tu correo y te escribiremos</p>
+        <!-- end footer-news -->
+        <div class="footer-box pad-top-70">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-in-main">
+                        <div class="footer-logo">
+                            <div class="text-center">
+                                <img src="images/logo.png" alt="" />
                             </div>
-                            <form>
-                                <input type="email" placeholder="Ingresa tu correo">
-                                <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o"
-                                        aria-hidden="true"></i></a>
-                            </form>
                         </div>
-                        <!-- end col -->
-                    </div>
-                    <!-- end row -->
-                </div>
-                <!-- end container -->
-            </div>
-            <!-- end footer-news -->
-            <div class="footer-box pad-top-70">
-                <div class="container">
-                    <div class="row">
-                        <div class="footer-in-main">
-                            <div class="footer-logo">
-                                <div class="text-center">
-                                    <img src="images/logo.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="footer-box-a">
-                                    <h3>Redes Sociales</h3>
-                                    <p>Siguenos en nuestras redes sociales para que no te pierdas de nuestra novedades
-                                    </p>
-                                    <ul class="socials-box footer-socials pull-left">
-                                        <li>
-                                            <a href="#">
-                                                <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/avella.2024/" target="_blank">
-                                                <div class="social-circle-border"><i class="fa fa-instagram"></i></div>
-                                            </a>
-                                        </li>
-                                        <!-- <li>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-a">
+                                <h3>Redes Sociales</h3>
+                                <p>Siguenos en nuestras redes sociales para que no te pierdas de nuestra novedades
+                                </p>
+                                <ul class="socials-box footer-socials pull-left">
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/avella.2024/" target="_blank">
+                                            <div class="social-circle-border"><i class="fa fa-instagram"></i></div>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
                                         <a href="#">
                                             <div class="social-circle-border"><i class="fa fa-twitter"></i></div>
                                         </a>
                                     </li> -->
-                                        <!-- <li>
+                                    <!-- <li>
                                         <a href="#">
                                             <div class="social-circle-border"><i class="fa fa-pinterest"></i></div>
                                         </a>
                                     </li> -->
-                                    </ul>
+                                </ul>
 
-                                </div>
-                                <!-- end footer-box-a -->
                             </div>
-                            <!-- end col -->
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="footer-box-b">
-                                    <h3>Próximos Lanzamientos</h3>
-                                    <ul>
-                                        <li><a href="#">Brownie</a></li>
-                                        <li><a href="#">Gelatina</a></li>
-                                        <li><a href="#">Pie de ...</a></li>
-                                        <li><a href="#">Tartaleta de granola</a></li>
-                                    </ul>
-                                </div>
-                                <!-- end footer-box-b -->
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="footer-box-c">
-                                    <h3>Contáctanos</h3>
-                                    <p>
-                                        <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                        <span>Av. Alfredo Benavides 786.</span>
-                                    </p>
-                                    <p>
-                                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                                        <span>
-                                            +51 933 445 851
-                                        </span>
-                                    </p>
-                                    <p>
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        <span><a href="#">avella@gmail.com</a></span>
-                                    </p>
-                                </div>
-                                <!-- end footer-box-c -->
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="footer-box-d">
-                                    <h3>Atención</h3>
-
-                                    <ul>
-                                        <li>
-                                            <p>Lunes - Jueves </p>
-                                            <span> 11:00 AM - 9:00 PM</span>
-                                        </li>
-                                        <li>
-                                            <p>Viernes - Sábado </p>
-                                            <span> 11:00 AM - 5:00 PM</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- end footer-box-d -->
-                            </div>
-                            <!-- end col -->
+                            <!-- end footer-box-a -->
                         </div>
-                        <!-- end footer-in-main -->
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-b">
+                                <h3>Próximos Lanzamientos</h3>
+                                <ul>
+                                    <li><a href="#">Brownie</a></li>
+                                    <li><a href="#">Gelatina</a></li>
+                                    <li><a href="#">Pie de ...</a></li>
+                                    <li><a href="#">Tartaleta de granola</a></li>
+                                </ul>
+                            </div>
+                            <!-- end footer-box-b -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-c">
+                                <h3>Contáctanos</h3>
+                                <p>
+                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                    <span>Av. Alfredo Benavides 786.</span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <span>
+                                        +51 933 445 851
+                                    </span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span><a href="#">avella@gmail.com</a></span>
+                                </p>
+                            </div>
+                            <!-- end footer-box-c -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-d">
+                                <h3>Atención</h3>
+
+                                <ul>
+                                    <li>
+                                        <p>Lunes - Jueves </p>
+                                        <span> 11:00 AM - 9:00 PM</span>
+                                    </li>
+                                    <li>
+                                        <p>Viernes - Sábado </p>
+                                        <span> 11:00 AM - 5:00 PM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end footer-box-d -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end footer-in-main -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+            <div id="copyright" class="copyright-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h6 class="copy-title"> Copyright &copy; 2024 Todos los derechos reservados <a href="#"
+                                    target="_blank"></a> </h6>
+                        </div>
                     </div>
                     <!-- end row -->
                 </div>
                 <!-- end container -->
-                <div id="copyright" class="copyright-main">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h6 class="copy-title"> Copyright &copy; 2024 Todos los derechos reservados <a href="#"
-                                        target="_blank"></a> </h6>
-                            </div>
-                        </div>
-                        <!-- end row -->
-                    </div>
-                    <!-- end container -->
-                </div>
-                <!-- end copyright-main -->
             </div>
-            <!-- end footer-box -->
+            <!-- end copyright-main -->
         </div>
-        <!-- FOOTER END -->
+        <!-- end footer-box -->
+    </div>
+    <!-- FOOTER END -->
 
-        <!--whatsapp icono-->
-        <a href="https://api.whatsapp.com/send/?phone=51933445851&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20sus%20postres%20saludables.&type=phone_number&app_absent=0"
-            class="whatsapp-icon" target="_blank">
-            <img src="images/ws1.png" alt="Chatea con nosotros en WhatsApp" class="whatsapp-image">
-            <span class="tooltip-text">¡TE ESCUCHAMOS!</span>
-        </a>
-        <!--FIN whatsapp icono-->
+    <!--whatsapp icono-->
+    <a href="https://api.whatsapp.com/send/?phone=51933445851&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20sus%20postres%20saludables.&type=phone_number&app_absent=0"
+        class="whatsapp-icon" target="_blank">
+        <img src="images/ws1.png" alt="Chatea con nosotros en WhatsApp" class="whatsapp-image">
+        <span class="tooltip-text">¡TE ESCUCHAMOS!</span>
+    </a>
+    <!--FIN whatsapp icono-->
 
-        <a href="#" class="scrollup" style="display: none;">Scroll</a>
+    <a href="#" class="scrollup" style="display: none;">Scroll</a>
 
-        <!-- BOTON PARA CAMBIAR DE COLOR LA PÁGINA -->
+    <!-- BOTON PARA CAMBIAR DE COLOR LA PÁGINA -->
 
-        <!-- <section id="color-panel" class="close-color-panel">
+    <!-- <section id="color-panel" class="close-color-panel">
         <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
         <div class="segment">
             <h4 class="gray2 normal no-padding text-center">Temas</h4>
@@ -1090,12 +1099,12 @@
         </div>
     </section> -->
 
-        <!-- ALL JS FILES -->
-        <script src="js/all.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="https://kit.fontawesome.com/c0b0245c8e.js" crossorigin="anonymous"></script>
-        <!-- ALL PLUGINS -->
-        <script src="js/custom.js"></script>
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c0b0245c8e.js" crossorigin="anonymous"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
